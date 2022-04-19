@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 # Back to top button
 --------------------------------------------------------------*/
 @media (max-width: 992px) {
-.back-to-top2 {
+.balik-ke-atas {
   position: fixed;
   visibility: visible;
   opacity: 1;
@@ -55,16 +55,16 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: all 0.4s;
 }
-.back-to-top2 i {
+.balik-ke-atas i {
   font-size: 28px !important;
   color: #fff !important;
   line-height: 0 !important;
 }
-.back-to-top2:hover {
+.balik-ke-atas:hover {
   background: #2ce782;
   color: #fff;
 }
-.back-to-top2.active {
+.balik-ke-atas.active {
   visibility: visible;
   opacity: 1;
 }
