@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   visibility: visible;
   opacity: 1;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 997;
   background: #18d26e;
@@ -54,9 +54,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
+}
+.back-to-top2 i {
+  font-size: 28px !important;
+  color: #fff !important;
+  line-height: 0 !important;
 }
 .back-to-top2:hover {
   background: #2ce782;
