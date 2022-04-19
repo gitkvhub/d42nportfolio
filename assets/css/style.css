@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6 {
 #hidemore {
   visibility: hidden;
   }
+#hero .btn-get-started {
+display: inherit !important;
+margin-top:-100px !important;
+}
 .balik-ke-atas {
   position: fixed;
   visibility: visible;
