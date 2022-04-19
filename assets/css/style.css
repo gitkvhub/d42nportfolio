@@ -222,7 +222,8 @@ margin-top:-100px !important;
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #18d26e;
+  color: #ffc107;
+  font-weight: bold;
 }
 .navbar .dropdown ul {
   display: block;
