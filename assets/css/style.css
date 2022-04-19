@@ -42,6 +42,9 @@ h1, h2, h3, h4, h5, h6 {
 # Back to top button
 --------------------------------------------------------------*/
 @media (max-width: 992px) {
+#hidemore {
+  visibility: hidden;
+  }
 .balik-ke-atas {
   position: fixed;
   visibility: visible;
