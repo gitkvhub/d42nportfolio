@@ -1323,7 +1323,7 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
 .bi-wallet2::before { content: "\f615"; }
 .bi-watch::before { content: "\f616"; }
 .bi-water::before { content: "\f617"; }
-.bi-whatsapp::before { content: "\f148"; }
+.bi-whatsapp::before { content: "\f618"; }
 .bi-wifi-1::before { content: "\f619"; }
 .bi-wifi-2::before { content: "\f61a"; }
 .bi-wifi-off::before { content: "\f61b"; }
