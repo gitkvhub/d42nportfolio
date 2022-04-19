@@ -149,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   margin: 0 auto 30px auto;
   color: #fff;
+  text-overflow: ellipsis;
 }
 @media (max-width: 992px) {
   #header .logo {
