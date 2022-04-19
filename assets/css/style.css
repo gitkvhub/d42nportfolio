@@ -143,6 +143,13 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 40px;
 }
+/** Fit for Xiaomi Redminote 4 **/
+@media (max-width: 360px) {
+  #hero p {
+  width: 100%;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
 @media (max-width: 992px) {
   #header .logo {
     font-size: 28px;
@@ -385,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #hero p {
-  width: 100%;
+  width: 80%;
   margin: 0 auto 30px auto;
   color: #fff;
 }
