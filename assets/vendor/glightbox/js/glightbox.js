@@ -1868,19 +1868,7 @@
     });
   }
 
-  function getYoutubeID(url) {
-    var videoID = '';
-    url = url.replace(/(>|<)/gi, '').split(/(vi\/|v=|\/v\/|youtu\.be\/|\/embed\/)/);
-
-    if (url[2] !== undefined) {
-      videoID = url[2].split(/[^0-9a-z_\-]/i);
-      videoID = videoID[0];
-    } else {
-      videoID = url;
-    }
-
-    return videoID;
-  }
+  // Function Replaced Due to Vulnerability
 
   function handleMediaFullScreen(event) {
     var media = closest(event.target, '.gslide-media');
